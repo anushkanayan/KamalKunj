@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/logo (2).png">
+    <title>Kamal Kunj-Cart Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <!--navbar-->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="img/logo (2).png" class="logo-img" width="80px"></a>
+        </div>
+        
+        <ul class="links-container">
+            <li class="Link-items"><a href="index.html" class="link">Home</a></li>
+            <li class="Link-items"><a href="search.html" class="link">Product</a></li>
+            <li class="Link-items"><a href="aboutus.html" class="link">Katha</a></li>
+            <li class="Link-items"><a href="#footer" class="link">Contact Us</a></li>
+        </ul>
+        <div class="user-interaction">
+            
+            
+            <div class="user">
+                <a href="signup.html"><img src="img/user-removebg-preview.png" class="user-icon" alt=""></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cart Container -->
+    <div class="cart">
+        <button type="button" id="cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-count-info">2</span>
+        </button>
+
+        <div class="cart-container">
+            <div class="cart-list">
+                <!-- Item 1 -->
+                <div class="cart-item">
+                    <img src="img/t1.jpg" alt="product image">
+                    <div class="cart-item-info">
+                        <h3 class="cart-item-name">Smriti Kurti</h3>
+                        <span class="cart-item-category">Kurti</span>
+                        <span class="cart-item-price">Rs.3999</span>
+                    </div>
+
+                    <button type="button" class="cart-item-del-btn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="cart-item">
+                    <img src="img/t2.jpg" alt="product image">
+                    <div class="cart-item-info">
+                        <h3 class="cart-item-name">Ranjish Tunic</h3>
+                        <span class="cart-item-category">Tunic</span>
+                        <span class="cart-item-price">Rs.4999</span>
+                    </div>
+
+                    <button type="button" class="cart-item-del-btn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="cart-total">
+                <h3>Total: Rs.8998</h3>
+            </div>
+        </div>
+
+        <div class="btn">
+            <a href="search.html"><button class="close">Close</button></a>
+            <a href="payment.html"><button class="checkOut">Check Out</button></a>
+        </div>
+    </div>
+
+    <!-- Include Font Awesome -->
+    <script src="js/home.js"></script>
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+</body>
+</html>
